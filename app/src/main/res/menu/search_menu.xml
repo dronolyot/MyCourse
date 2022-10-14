@@ -12,5 +12,6 @@
         android:title="@string/title"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="ifRoom|collapseActionView"/>
+
 </menu>
 

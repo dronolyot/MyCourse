@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        courseRV = findViewById(R.id.idIVCourse)
+        courseRV = findViewById(R.id.idRVCourses)
 
 
         courseList = ArrayList()
@@ -92,5 +92,4 @@ class MainActivity : AppCompatActivity() {
             courseRVAdapter.filterList(filteredlist)
         }
     }
-
-} //Конец класса MainActivity
+}
